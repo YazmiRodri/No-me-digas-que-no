@@ -53,5 +53,20 @@ h2 {
     z-index: 9999;
   }
 
+  button {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: lightpink;
+    cursor: pointer;
+  }
+  
+
 
   
