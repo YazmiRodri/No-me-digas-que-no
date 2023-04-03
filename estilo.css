@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: url('https://i.pinimg.com/originals/5d/ba/97/5dba9778d36c23c0cede1b622d81c7dc.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  background-color: violet;
+  color: white;
+  padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    background: linear-gradient(to right, violet, #a25fd3, violet);
+    color: white;
+    padding: 10px;
+  }
+
+.primera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .primera button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff00aa;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #mensaje{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color:#6c13e062;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    z-index: 9999;
+  }
+
+
+  
